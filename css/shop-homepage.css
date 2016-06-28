@@ -4,12 +4,37 @@
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
  */
 
- * {
+/* * {
     outline: 1px solid pink;
- }
+ }*/
+
+.light-blue-bkgd {
+    background-color: #4CABCB;
+}
+
+.breadcrumb {
+    background-color: transparent;
+}
+
+
+/* PRODUCTS */
+.item-title a{
+    font-size: 12px;
+    color: #000000;
+}
+
+.price-text {
+    color: red;
+}
+
+.ratings span{
+    color: #F0B15B;
+}
+
+
+ /**/
 
 body {
-    padding-top: 70px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
 }
 
 .slide-image {
@@ -26,7 +51,6 @@ body {
 }
 
 .caption {
-    height: 130px;
     overflow: hidden;
 }
 
